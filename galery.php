@@ -21,11 +21,11 @@
   <div class="shell">
     <div class="cl">&nbsp;</div>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="galery.html">Galery</a></li>
-      <li><a href="info.html">Liverpool Info</a></li>
-      <li><a href="transfer.html">Transfer</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="galery.php">Galery</a></li>
+      <li><a href="info.php">Liverpool Info</a></li>
+      <li><a href="transfer.php">Transfer</a></li>
+      <li><a href="aboutme.php">About Me</a></li>
     </ul>
     <div class="cl">&nbsp;</div>
   </div>
@@ -39,19 +39,19 @@
       <div id="side-nav">
         <ul>
           <li class="active">
-            <div class="link"><a href="index.html">Home</a></div>
+            <div class="link"><a href="index.php">Home</a></div>
           </li>
           <li>
-            <div class="link"><a href="galery.html">Galery</a></div>
+            <div class="link"><a href="galery.php">Galery</a></div>
           </li>
           <li>
-            <div class="link"><a href="info.html">Liverpool Info</a></div>
+            <div class="link"><a href="info.php">Liverpool Info</a></div>
           </li>
           <li>
-            <div class="link"><a href="transfer.html">Transfer</a></div>
+            <div class="link"><a href="transfer.php">Transfer</a></div>
           </li>
           <li>
-            <div class="link"><a href="aboutme.html">About Me</a></div>
+            <div class="link"><a href="aboutme.php">About Me</a></div>
           </li>
         </ul>
       </div>

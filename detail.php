@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Detail About Me</title>
+<title>About Me</title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
@@ -21,11 +21,11 @@
   <div class="shell">
     <div class="cl">&nbsp;</div>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="galery.html">Galery</a></li>
-      <li><a href="info.html">Liverpool Info</a></li>
-      <li><a href="transfer.html">Transfer</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="galery.php">Galery</a></li>
+      <li><a href="info.php">Liverpool Info</a></li>
+      <li><a href="transfer.php">Transfer</a></li>
+      <li><a href="aboutme.php">About Me</a></li>
     </ul>
     <div class="cl">&nbsp;</div>
   </div>
@@ -39,102 +39,121 @@
       <div id="side-nav">
         <ul>
           <li class="active">
-            <div class="link"><a href="index.html">Home</a></div>
+            <div class="link"><a href="index.php">Home</a></div>
           </li>
           <li>
-            <div class="link"><a href="galery.html">Galery</a></div>
+            <div class="link"><a href="galery.php">Galery</a></div>
           </li>
           <li>
-            <div class="link"><a href="info.html">Liverpool Info</a></div>
+            <div class="link"><a href="info.php">Liverpool Info</a></div>
           </li>
           <li>
-            <div class="link"><a href="transfer.html">Transfer</a></div>
+            <div class="link"><a href="transfer.php">Transfer</a></div>
           </li>
           <li>
-            <div class="link"><a href="aboutme.html">About Me</a></div>
+            <div class="link"><a href="aboutme.php">About Me</a></div>
           </li>
         </ul>
       </div>
       <!-- End Sub nav -->
       <form action="#" style="width: 700px"class="posisi";>
-        <fieldset class="h"/>
         <table style="width: 650px;">
           <tr>
-            <td rowspan="15" width="250px">
-              <img src="css/images/aku.jpg" width="250px" height="420px"/>
-            </td>
+            <td colspan="4" style="text-align: center; background-color: Green;color: orange"><b>Riwayat Jenjang Pendidikan Formal</b></td>
           </tr>
           <tr>
-            <td><b>Nama Lengkap</b></td>
+            <td style="text-align: center">Jenjang Pendidikan</td>
+            <td style="text-align: center">Keterangan</td>
+            <td style="text-align: center">Bidang Jurusan</td>
+            <td style="text-align: center">Tahun</td>
+          </tr>
+          <tr>
+            <td>SEKOLAH DASAR</td>
+            <td>SDN 1 Giriwoyo</td>
+            <td>Tidak ada</td>
+            <td>2003 s.d 2009</td>
+          </tr>
+          <tr>
+            <td>SEKOLAH LANJUTAN PERTAMA</td>
+            <td>SMPN 2 Baturetno</td>
+            <td>Tidak ada</td>
+            <td>2009 s.d 2012</td>
+          </tr>
+          <tr>
+            <td>SEKOLAH LANJUTAN ATAS</td>
+            <td>SMKN 1 Giritontro</td>
+            <td>Teknik Jaringan dan Komputer</td>
+            <td>2012 s.d 2015 </td>
+          </tr>
+          <tr>
+            <td>STRATA I</td>
+            <td><a href="http://www.akakom.ac.id/">STMIK AKAKOM YOGYAKARTA</a></td>
+            <td>Teknik Informatika</td>
+            <td>2015 s.d Sekarang</td>
+          </tr>
+        </table>
+        <br>
+        <table style="width: 650px;">
+          <tr>
+            <td colspan="4" style="text-align: center; background-color: Green;color: orange"><b>Informasi Umum</b></td>
+          </tr>
+          <tr>
+            <td>Nomor Telephon</td>
             <td>:</td>
-            <td>Yudha Pratama Putra</td>
+            <td>+6282326736493</td>
           </tr>
           <tr>
-            <td><b>NIM</b></td>
+            <td>E-mail</td>
             <td>:</td>
-            <td>155410053</td>
+            <td><a href="mailto:another_konpeki@aol.com" style="text-decoration: none;color: black";>yudhapratama539@gmail.com</a></td>
           </tr>
           <tr>
-            <td><b>Nama Panggilan</b></td>
+            <td>Hobi</td>
             <td>:</td>
-            <td>Yudha</td>
+            <td>Coding, Fotografi, Main Game, Baca Manga, Nonton Anime</td>
+          </tr>
+        </table>
+        <br>
+        <table style="width: 650px;">
+          <tr>
+            <td colspan="4" style="text-align: center; background-color: Green;color: orange"><b>Keluarga</b></td>
           </tr>
           <tr>
-            <td><b>Tempat, Tanggal Lahir</b></td>
+            <td>Nama Ayah</td>
             <td>:</td>
-            <td>Jakarta, 7 Oktober 1997</td>
+            <td>Alm. Suyono</td>
           </tr>
           <tr>
-            <td><b>Umur</b></td>
+            <td>Pekerjaan</td>
             <td>:</td>
-            <td>20 Tahun</td>
+            <td>-</td>
           </tr>
           <tr>
-            <td><b>Jenis Kelamin</b></td>
+            <td>Alamat</td>
             <td>:</td>
-            <td>Laki - Laki</td>
+            <td>-</td>
           </tr>
+          <tr><td colspan="3"></td></tr>
           <tr>
-            <td><b>Gol. Darah</b></td>
+            <td>Nama Ibu</td>
             <td>:</td>
-            <td>B</td>
+            <td>Tarmi</td>
           </tr>
           <tr>
-            <td><b>Agama</b></td>
+            <td>Pekerjaan</td>
             <td>:</td>
-            <td>Islam</td>
+            <td>Pedagang</td>
           </tr>
           <tr>
-            <td><b>Alamat</b></td>
+            <td>Alamat</td>
             <td>:</td>
             <td>Ngebrak Kidul, Giriwoyo, Wonogiri</td>
           </tr>
-          <tr>
-            <td><b>Status</b></td>
-            <td>:</td>
-            <td>Belum Menikah</td>
-          </tr>
-          <tr>
-            <td><b>Pekerjaan</b></td>
-            <td>:</td>
-            <td>Mahasiswa</td>
-          </tr>
-          <tr>
-            <td><b>Kewarganegaraan</b></td>
-            <td>:</td>
-            <td>Indonesia</td>
-          </tr>
-          <tr>
-            <td><b>Riwayat</b></td>
-            <td>:</td>
-            <td colspan="1" align="left">
-              Ingin Tahu Riwayatku ? <a href="detail.html"style="text-decoration: none;" target="_parent"><input
-                type="button"value="Cari tahu ? "/></a>
-              </td>
-            </tr>
+          <td colspan="3" align="right">
+            <a href="Tugas.html" style="text-decoration: none;"</a><input type="button" onclick="history.back()" value="Kembali"/>
+            </td>
           </table>
-        </fieldset>
-      </form>
+        </form>
     </div>
   </div>
 </div>
